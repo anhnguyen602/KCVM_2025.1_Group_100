@@ -1,0 +1,70 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/2025_1/ktvm/w3/o
+T_opt
+!s110 1760144385
+Vg0cOJG<L28gBjfH2XFK]z1
+04 14 4 work bit_pattern_tb fast 0
+=1-1091d1b0ce5d-68e9ac00-35c-8bf4
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vbit_pattern
+Z3 !s110 1760144384
+!i10b 1
+!s100 o0U;khR2LO17o?GgCOA=z3
+ICkAQ:naLhd=DUSm0>LSAm0
+R1
+w1760144360
+8bit_pattern.v
+Fbit_pattern.v
+!i122 9
+L0 1 54
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1760144384.000000
+!s107 bit_pattern.v|
+!s90 -reportprogress|300|bit_pattern.v|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vbit_pattern_tb
+R3
+!i10b 1
+!s100 53ZXC`cXo3IbXiHn^3h9I0
+I9ihjBY;=oMJcZM;Sb3?0U1
+R1
+w1760142852
+8bit_pattern_tb.v
+Fbit_pattern_tb.v
+!i122 10
+L0 2 50
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 bit_pattern_tb.v|
+!s90 -reportprogress|300|bit_pattern_tb.v|
+!i113 0
+R7
+R2

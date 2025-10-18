@@ -1,0 +1,71 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/2025_1/ktvm/w3/h
+T_opt
+!s110 1760135934
+VWKXe=NaWPBXjl=cVb>1R90
+04 12 4 work shift_reg_tb fast 0
+=1-1091d1b0ce5d-68e98afe-cb-39e0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vshift_reg
+Z3 !s110 1760135933
+!i10b 1
+!s100 QL08Uf4c]HHOSJc2e1>[?3
+IgJDC9dino<m3SSZI1Jh:Q2
+R1
+w1760134880
+8shift_reg.v
+Fshift_reg.v
+!i122 19
+L0 1 25
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1760135933.000000
+!s107 shift_reg.v|
+!s90 -reportprogress|300|shift_reg.v|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vshift_reg_tb
+R3
+!i10b 1
+!s100 BcRmCFOT7zEGJNY3;Z;MW1
+ID];_>U2TbAb[Nd_k<?ZF;3
+R1
+w1760135867
+8shift_reg_tb.v
+Fshift_reg_tb.v
+!i122 20
+L0 2 56
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 shift_reg_tb.v|
+!s90 -reportprogress|300|shift_reg_tb.v|
+!i113 0
+R7
+R2

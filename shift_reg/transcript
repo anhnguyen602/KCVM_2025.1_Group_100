@@ -1,0 +1,52 @@
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do vsim.cmd
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 05:38:53 on Oct 11,2025
+# vlog -reportprogress 300 shift_reg.v 
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	shift_reg
+# End time: 05:38:53 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 05:38:53 on Oct 11,2025
+# vlog -reportprogress 300 shift_reg_tb.v 
+# -- Compiling module shift_reg_tb
+# 
+# Top level modules:
+# 	shift_reg_tb
+# End time: 05:38:53 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" shift_reg_tb 
+# Start time: 05:38:53 on Oct 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.shift_reg_tb(fast)
+# Loading work.shift_reg(fast)
+# [20000] Load=1, Dir= LEFT, Data_in=00000011, Data_out=00000110
+# [40000] Load=1, Dir=RIGHT, Data_in=00000100, Data_out=00000010
+# [60000] Load=0, Dir= LEFT, Data_in=00010001, Data_out=00000010
+# [80000] Load=1, Dir= LEFT, Data_in=01000101, Data_out=10001010
+# [100000] Load=1, Dir=RIGHT, Data_in=00000000, Data_out=00000000
+# [120000] Load=1, Dir= LEFT, Data_in=01010000, Data_out=10100000
+# [140000] Load=1, Dir=RIGHT, Data_in=00110010, Data_out=00011001
+# [160000] Load=1, Dir=RIGHT, Data_in=00110100, Data_out=00011010
+# [180000] Load=0, Dir= LEFT, Data_in=00000111, Data_out=00011010
+# ** Note: $stop    : shift_reg_tb.v(55)
+#    Time: 190 ns  Iteration: 0  Instance: /shift_reg_tb
+# Break in Module shift_reg_tb at shift_reg_tb.v line 55
+# End time: 07:20:36 on Oct 11,2025, Elapsed time: 1:41:43
+# Errors: 0, Warnings: 0

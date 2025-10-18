@@ -1,0 +1,7 @@
+
+State Machine - |bit_pattern|cs
+Name cs.S101 cs.S10 cs.S1 cs.000 
+cs.000 0 0 0 0 
+cs.S1 0 0 1 1 
+cs.S10 0 1 0 1 
+cs.S101 1 0 0 1 
