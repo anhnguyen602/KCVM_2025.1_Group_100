@@ -154,33 +154,33 @@ always@(current_state, next_state) begin
     case (current_state) 
         IDLE: begin
             rts_n = 0;
-            rx_done_tmp = 0;
+            rx_done = 0;
         end
         START: begin
             rts_n = 1;
-            rx_done_tmp = 0;
+            rx_done = 0;
         end
         DATA:  begin
             rts_n = 1;
-            rx_done_tmp = 0;
+            rx_done = 0;
         end
         PARITY:  begin
             rts_n = 1;
-            rx_done_tmp = 0;
+            rx_done = 0;
         end
         STOP: begin
             if (next_state == IDLE) begin
-                rx_done_tmp = 1;
+                rx_done = 1;
                 rts_n = 0;
             end
             else begin
-                rx_done_tmp = 0;
+                rx_done = 0;
                 rts_n = 1;
             end
         end
         default:   begin 
             rts_n = 1;
-            rx_done_tmp = 0;
+            rx_done = 0;
         end
     endcase
 end
